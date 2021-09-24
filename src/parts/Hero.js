@@ -2,9 +2,6 @@ import React from "react";
 
 import ImageHero from "assets/images/img-hero.jpg";
 import ImageHero_ from "assets/images/img-hero-frame.jpg";
-import IconCities from "assets/images/icons/icon_cities.svg";
-import IconTraveler from "assets/images/icons/icon_traveler.svg";
-import IconTreasure from "assets/images/icons/icon_treasure.svg";
 
 import Fade from "react-reveal/Fade";
 
@@ -48,7 +45,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconTraveler}
+                  src="../assets/images/icon_traveler.svg"
                   alt={`${props.data.travelers} Travelers`}
                 />
                 <h6 className="mt-3">
@@ -62,7 +59,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconTreasure}
+                  src="/assets/images/icon_treasure.svg"
                   alt={`${props.data.treasures} Treasures`}
                 />
                 <h6 className="mt-3">
@@ -76,7 +73,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconCities}
+                  src="/assets/images/icon_cities.svg"
                   alt={`${props.data.travelers} Cities`}
                 />
                 <h6 className="mt-3">
